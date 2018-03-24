@@ -12,8 +12,11 @@ while x == "yes" or x == "y":
     print("Rock, paper, scissors!")
 
     ran = random.choice([rock,paper,scissors])
-    print("I chose " + ran + "and you chose " + player_input + ".")
+    print("I chose " + ran + " and you chose " + player_input + ".")
 
+    if player_input == "qwerty":
+        print("You won, cheater! >:-( ")
+    
     if player_input == rock or player_input == "r": 
         if ran == rock:
             print("Draw!")
