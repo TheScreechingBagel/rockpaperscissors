@@ -1,18 +1,18 @@
 #!/bin/python
 import random
 
-rock = 'камень'
-scissors = 'ножницы'
-paper = "бумага"
-x = "да"
-while x == "да" or x == "y":
+rock = "rock"
+scissors = "scissors"
+paper = "paper"
+x = "yes"
+while x == "yes" or x == "y":
 
-    player_input = input("что загадываешь? Камень ножницы или бумагу? or [r/p/s] ")
+    player_input = input("Pick one:[rock,paper,scissors] or [r/p/s] ")
 
-    print('Rock, paper, scissors!')
+    print("Rock, paper, scissors!")
 
     ran = random.choice([rock,paper,scissors])
-    print(ran)
+    print("I chose " + ran + ".")
 
 
     if player_input == rock or player_input == "r": 
@@ -36,4 +36,4 @@ while x == "да" or x == "y":
             print("You've lost!")
         elif ran == paper:
             print("Draw!")
-    x = input("Ещё раз? [да/нет] or [y/n] ") 
+    x = input("Wanna play again? [yes/no] or [y/n] ") 
