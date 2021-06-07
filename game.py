@@ -21,21 +21,21 @@ while x == "yes" or x == "y":
         if ran == rock:
             print("Draw!")
         elif ran == scissors:
-            print("I've lost!")
+            print("I lost!")
         elif ran == paper:
-            print("You've lost!")
+            print("You lost!")
     if player_input == scissors or player_input == "s": 
         if ran == rock:
-            print("You've lost!")
+            print("You lost!")
         elif ran == scissors:
             print("Draw!")
         elif ran == paper:
-            print("I've lost!")
+            print("I lost!")
     if player_input == paper or player_input == "p":
         if ran == rock:
-            print("I've lost!")
+            print("I lost!")
         elif ran == scissors:
-            print("You've lost!")
+            print("You lost!")
         elif ran == paper:
             print("Draw!")
     x = input("Wanna play again? [yes/no] or [y/n] ") 
