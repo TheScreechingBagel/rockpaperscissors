@@ -1,5 +1,5 @@
 # rockpaperscisors
 
-Playing rock-paper-scissors on Python!!!
+A simple game of "rock, paper, scissors" written in Python
 
-By TihBab
+By TheScreechingBagel
